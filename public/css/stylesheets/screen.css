@@ -1,0 +1,527 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/*
+ * Header Style
+ */
+/* line 15, ../sass/screen.scss */
+.page {
+  max-width: 960px;
+  min-width: 360px;
+  margin: 0 auto;
+}
+
+/* line 21, ../sass/screen.scss */
+header {
+  height: 80px;
+  background-color: #5c5c5c;
+  color: #e8e8e8;
+}
+/* line 46, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+header:before, header:after {
+  content: "";
+  display: table;
+}
+/* line 50, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+header:after {
+  clear: both;
+}
+/* line 28, ../sass/screen.scss */
+header .col1 {
+  float: left;
+  width: 33.33333%;
+  margin-left: 0%;
+  margin-right: -33.33333%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+/* line 31, ../sass/screen.scss */
+header .col2 {
+  float: left;
+  width: 33.33333%;
+  margin-left: 33.33333%;
+  margin-right: -66.66667%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+/* line 34, ../sass/screen.scss */
+header .col3 {
+  float: left;
+  width: 33.33333%;
+  margin-left: 66.66667%;
+  margin-right: -100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/**
+ *   Navbar Style
+ */
+/* line 42, ../sass/screen.scss */
+.navbar {
+  clear: left;
+  margin: 5px 0;
+}
+/* line 46, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+.navbar:before, .navbar:after {
+  content: "";
+  display: table;
+}
+/* line 50, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+.navbar:after {
+  clear: both;
+}
+/* line 48, ../sass/screen.scss */
+.navbar ul#main-menu {
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  background-color: gray;
+  color: white;
+  list-style: none;
+  border: 1px solid #c0c0c0;
+}
+/* line 55, ../sass/screen.scss */
+.navbar ul#main-menu li {
+  display: block;
+  position: relative;
+  float: left;
+  width: 12.5%;
+}
+/* line 60, ../sass/screen.scss */
+.navbar ul#main-menu li a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+}
+/* line 65, ../sass/screen.scss */
+.navbar ul#main-menu li a:hover {
+  background: #333;
+  color: #fff;
+  -moz-box-shadow: 0 3px 10px 0 #CCC;
+  -webkit-box-shadow: 0 3px 10px 0 #ccc;
+  text-shadow: 0px 0px 5px #fff;
+}
+/* line 73, ../sass/screen.scss */
+.navbar ul#main-menu li ul {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  background-color: #fff;
+  display: none;
+}
+/* line 79, ../sass/screen.scss */
+.navbar ul#main-menu li ul li {
+  border: 1px solid #c0c0c0;
+  display: block;
+  width: 200px;
+}
+/* line 86, ../sass/screen.scss */
+.navbar ul#main-menu li:hover ul {
+  display: block;
+}
+
+/* Container */
+/* line 95, ../sass/screen.scss */
+.container {
+  clear: left;
+}
+
+/*
+ * Test zen grid system
+ */
+/* line 104, ../sass/screen.scss */
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+/* line 46, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+.container:before, .container:after {
+  content: "";
+  display: table;
+}
+/* line 50, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+.container:after {
+  clear: both;
+}
+
+/* line 113, ../sass/screen.scss */
+.one, .two, .three {
+  height: 200px;
+  font: 14px/190px Helvetica, sans-serif;
+  text-align: center;
+  border: 1px solid white;
+}
+
+/* line 120, ../sass/screen.scss */
+.one {
+  float: left;
+  width: 33.33333%;
+  margin-left: 0%;
+  margin-right: -33.33333%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* line 124, ../sass/screen.scss */
+.two {
+  float: left;
+  width: 33.33333%;
+  margin-left: 33.33333%;
+  margin-right: -66.66667%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* line 128, ../sass/screen.scss */
+.three {
+  float: left;
+  width: 33.33333%;
+  margin-left: 66.66667%;
+  margin-right: -100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* line 132, ../sass/screen.scss */
+.one, .two, .three, .four, .five, .six, .seven, .eight {
+  height: 200px;
+  font: 14px/190px Helvetica, sans-serif;
+  text-align: center;
+  border: 1px solid white;
+}
+
+/* line 139, ../sass/screen.scss */
+.three, .four {
+  height: 100px;
+  font: 14px/100px Helvetica, sans-serif;
+}
+
+/* line 143, ../sass/screen.scss */
+.one {
+  float: left;
+  width: 33.33333%;
+  margin-left: 0%;
+  margin-right: -33.33333%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* line 147, ../sass/screen.scss */
+.two {
+  float: left;
+  width: 33.33333%;
+  margin-left: 33.33333%;
+  margin-right: -66.66667%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* line 151, ../sass/screen.scss */
+.nested {
+  float: left;
+  width: 33.33333%;
+  margin-left: 66.66667%;
+  margin-right: -100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 156, ../sass/screen.scss */
+.one {
+  float: left;
+  width: 33.33333%;
+  margin-left: 0%;
+  margin-right: -33.33333%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* line 160, ../sass/screen.scss */
+.two {
+  float: left;
+  width: 33.33333%;
+  margin-left: 33.33333%;
+  margin-right: -66.66667%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* line 164, ../sass/screen.scss */
+.nested {
+  float: left;
+  width: 33.33333%;
+  margin-left: 66.66667%;
+  margin-right: -100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  padding-left: 0;
+  padding-right: 0;
+  background: #ccc;
+}
+
+/* line 170, ../sass/screen.scss */
+.three {
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* line 174, ../sass/screen.scss */
+.four {
+  clear: left;
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* line 179, ../sass/screen.scss */
+.container2 {
+  width: 100%;
+  margin: 0 auto;
+  background: #999;
+}
+/* line 46, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+.container2:before, .container2:after {
+  content: "";
+  display: table;
+}
+/* line 50, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+.container2:after {
+  clear: both;
+}
+
+/* line 189, ../sass/screen.scss */
+.five {
+  float: left;
+  width: 25%;
+  margin-left: 0%;
+  margin-right: -25%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* line 193, ../sass/screen.scss */
+.six {
+  float: left;
+  width: 25%;
+  margin-left: 25%;
+  margin-right: -50%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* line 197, ../sass/screen.scss */
+.seven {
+  float: left;
+  width: 25%;
+  margin-left: 50%;
+  margin-right: -75%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* line 201, ../sass/screen.scss */
+.eight {
+  float: left;
+  width: 25%;
+  margin-left: 75%;
+  margin-right: -100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/*
+ * Footer Style
+ */
+/* line 209, ../sass/screen.scss */
+footer {
+  background-color: #5c5c5c;
+  color: #e8e8e8;
+  height: 20px;
+  text-align: right;
+  font-size: 12px/40px Helvetica, sans-serif;
+  padding: 2% 2%;
+}
+/* line 46, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+footer:before, footer:after {
+  content: "";
+  display: table;
+}
+/* line 50, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+footer:after {
+  clear: both;
+}
